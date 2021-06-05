@@ -327,7 +327,7 @@ footer .col-footer {
 }
 
 .d-bloc .panel {
-  color: rgba(0, 0, 0, 0.5);
+  color: #00000080;
 }
 
 .d-bloc .panel button:hover {
