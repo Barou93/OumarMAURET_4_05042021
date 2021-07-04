@@ -537,7 +537,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
   color: #fff;
-  background: rgba(0, 0, 0, 0.3);
+  background: crimson;
 }
 
 button {
@@ -585,9 +585,15 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  background: crimson;
+  color: #fff;
+  opacity: 0.8;
   z-index: 500;
   transition: all 0.3s ease-in-out;
+}
+
+.updown {
+  color: #fff;
 }
 
 .scrollToTop span {
@@ -596,6 +602,8 @@ button {
 
 .showScrollTop {
   font-size: 14px;
+  background: crimson;
+  color: #fff;
   opacity: 1;
 }
 
