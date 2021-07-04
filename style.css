@@ -32,10 +32,25 @@ a:hover {
   color: #fff !important;
 }
 
+.ml-5,
+.mx-5 {
+  margin-left: 3rem !important;
+}
+
+.mr-5,
+.mx-5 {
+  margin-right: 3rem !important;
+}
+
+.mt-5,
+.my-5 {
+  margin-top: 3rem !important;
+}
+
 .parallax-section .text-size {
-  font-size: 25px;
+  font-size: 2.2em;
   font-weight: bold;
-  margin: 25px 0;
+  text-align: center;
 }
 .texture-paper::before {
   background: url("img/texture-paper.png");
@@ -48,7 +63,7 @@ a:hover {
 }
 
 .text-paragraph-size {
-  font-size: 17px;
+  font-size: 1.5em;
 }
 
 .parallax-section::before {
@@ -164,7 +179,6 @@ a:hover {
 
 .parallax-section .bgc-dark {
   background: rgb(0 0 0 / 65%);
-  height: 450px;
 }
 
 .parallax-section .mt5 {
@@ -219,12 +233,9 @@ a:hover {
   width: 100px;
 }
 
-.parallax-section .dark-new {
-  height: 320px;
-}
-
 #cta-hero {
-  font-size: 15px;
+  font-size: 1.5em;
+  margin-bottom: 25px;
 }
 
 /********************/
@@ -316,12 +327,6 @@ footer .col-footer {
 
 .navbar {
   z-index: 1;
-}
-
-.parallax-section .back-new {
-  background: rgb(0 0 0 / 35%);
-  width: 100%;
-  height: 200px;
 }
 
 .new-container {
@@ -512,15 +517,11 @@ nav .caret {
   height: 10px;
 }
 
-.text-paragraph-size {
-  margin-top: 25px;
-}
 .btn {
   font-size: 15px;
   text-transform: uppercase;
   background: crimson;
   color: #fff;
-  margin-top: 60px;
   padding: 12px;
 }
 
@@ -881,10 +882,6 @@ h3 {
     flex-direction: column-reverse;
   }
 
-  .parallax-section .mt5 {
-    margin-top: 50px;
-  }
-
   .row-social {
     display: flex;
     align-items: flex-start;
@@ -942,23 +939,6 @@ h3 {
     width: 50%;
   }
 
-  .new {
-    text-align: justify;
-  }
-
-  .parallax-section .dark-new {
-    height: 320px !important;
-  }
-
-  .parallax-section .bgc-dark {
-    width: 100%;
-    height: 600px;
-  }
-
-  .parallax-section .text-size {
-    width: 80%;
-  }
-
   .navbar .nav {
     padding-top: 0;
 
@@ -968,25 +948,6 @@ h3 {
     margin-left: 0;
     margin-right: 0;
   }
-
-  /* .form-size {
-    margin-top: 25px;
-  }
-
-  .bloc-l {
-    margin: 0;
-  }
-
-  .bloc-info {
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-
-  .bloc-form {
-    display: flex;
-    flex-flow: column-reverse wrap;
-  } */
 
   .nav > li {
     margin-top: 0;
@@ -1100,13 +1061,5 @@ h3 {
   }
   .picture {
     width: 80%;
-  }
-
-  .new {
-    text-align: justify;
-  }
-
-  .parallax-section .text-size {
-    font-size: 18px;
   }
 }
