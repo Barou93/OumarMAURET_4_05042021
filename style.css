@@ -82,8 +82,7 @@ a:hover {
 
 .bloc-info {
   background: #c4c4c4;
-  height: 400px;
-  width: 40%;
+
   text-align: center;
   margin-left: 45px;
 }
@@ -926,7 +925,7 @@ h3 {
   }
 
   .bloc-info {
-    width: auto;
+    width: 100%;
     height: auto;
     margin: 0;
   }
