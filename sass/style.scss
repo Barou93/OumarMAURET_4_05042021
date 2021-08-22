@@ -125,7 +125,7 @@ blockquote {
 }
 
 .mt-3 {
-  font-size: 2.6rem;
+  font-size: 2.125rem;
   color: #000;
   font-weight: bold;
   margin-top: 1rem !important;
@@ -385,88 +385,6 @@ footer .col-footer {
     }
   }
 }
-
-// #lightbox-modal {
-//   display: flex;
-//   align-items: center;
-// }
-
-// #lightbox-modal .modal-dialog {
-//   width: 100%;
-//   max-width: 550px;
-//   margin: 0 auto 0;
-// }
-
-// #lightbox-modal .modal-dialog img {
-//   max-height: 80vh;
-//   margin: 0 auto;
-// }
-
-// .lightbox-caption {
-//   padding: 20px;
-//   color: #fff;
-//   background: rgba(0, 0, 0, 0.5);
-//   position: absolute;
-//   left: 15px;
-//   right: 15px;
-//   bottom: 5px;
-// }
-
-// .close-lightbox {
-//   color: #fff;
-//   font-size: 30px;
-//   position: absolute;
-//   top: 20px;
-//   right: 20px;
-//   z-index: 20;
-//   background: rgba(0, 0, 0, 0.5);
-//   border: none;
-//   line-height: 30px;
-//   padding: 0 9px 5px;
-//   opacity: 0.3;
-// }
-
-// .close-lightbox:hover,
-// .next-lightbox:hover,
-// .prev-lightbox:hover {
-//   opacity: 1;
-//   color: #fff;
-// }
-
-// .next-lightbox,
-// .prev-lightbox {
-//   font-size: 20px;
-//   color: rgba(255, 255, 255, 0.9);
-//   background: rgba(0, 0, 0, 0.5);
-//   transition: all 0.2s ease-in-out;
-//   position: absolute;
-//   top: 45%;
-//   z-index: 1;
-//   opacity: 0.4;
-// }
-
-// .next-lightbox {
-//   padding: 6px 8px 1px 13px;
-//   right: 25px;
-// }
-
-// .prev-lightbox {
-//   padding: 6px 13px 1px 10px;
-//   left: 25px;
-// }
-
-// .snapshot-lb .modal-body {
-//   padding-bottom: 45px;
-// }
-
-// .snapshot-lb .lightbox-caption {
-//   padding: 0;
-//   color: #333;
-//   font-size: 18px;
-//   font-weight: bold;
-//   margin-bottom: 0;
-//   background: none;
-// }
 
 @media screen and (max-width: 580px) {
   .navbar-brand img {
