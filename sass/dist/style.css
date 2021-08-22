@@ -200,6 +200,9 @@ blockquote {
   background: linear-gradient(rgba(29, 27, 27, 0.397), rgba(172, 171, 171, 0.069)), url(../img/signin.jpg) no-repeat;
   background-size: cover;
 }
+#bloc-contact h1 {
+  font-size: 4.125rem;
+}
 
 #header h2 {
   font-size: 45px;
@@ -245,14 +248,6 @@ blockquote p {
 }
 
 /******FOOTER**********/
-/*
-.footer-display {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 50px;
-  margin-top: 25px;
-}*/
 .footer-blockquote {
   text-align: center;
 }

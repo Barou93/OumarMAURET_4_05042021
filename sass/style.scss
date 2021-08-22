@@ -179,6 +179,9 @@ blockquote {
     ),
     url(../img/signin.jpg) no-repeat;
   background-size: cover;
+  h1 {
+    font-size: 4.125rem;
+  }
 }
 
 #header h2 {
@@ -226,14 +229,7 @@ blockquote p {
 }
 
 /******FOOTER**********/
-/*
-.footer-display {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 50px;
-  margin-top: 25px;
-}*/
+
 .footer-blockquote {
   text-align: center;
 }
