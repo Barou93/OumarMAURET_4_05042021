@@ -1,0 +1,20 @@
+{
+  "name": "projet_4_oumarmauret",
+  "version": "1.0.0",
+  "description": "Refonte Chouette Agence",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss public/style.css --style compressed",
+    "prefix": "postcss public/style.css --use autoprefixer -d  public/prefixed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barou93/OumarMAURET_4_05042021.git"
+  },
+  "author": "Oumar MAURET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barou93/OumarMAURET_4_05042021/issues"
+  },
+  "homepage": "https://github.com/Barou93/OumarMAURET_4_05042021#readme"
+}

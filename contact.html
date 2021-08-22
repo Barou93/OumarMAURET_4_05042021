@@ -8,19 +8,64 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contactez-nous Nous serons ravis de collaborer avec vous</title>
+
+    <!--Grqph Gl Facebook-->
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="contact.html" />
+    <meta property="og:site_name" content="La chouette Agence" />
+    <meta
+      property="og:title"
+      content="Contactez-nous Nous serons ravis de collaborer avec vous"
+    />
+    <meta
+      property="og:description"
+      content="Avez-vous des projets ? Nous serons ravis de les connaitre "
+    />
+    <meta property="og:image" content="img/la-chouette-agence.png" />
+
+    <!--Meta ROBOT Follow-->
+
+    <meta name="robot" content="index, follow" />
+
+    <!--Links Preconnect-->
+    <link
+      rel="preconnect"
+      href="https://code.jquery.com/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preconnect"
+      href="https://www.jsdelivr.com/"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/
+    crossorigin="anonymous" />
+    <link rel="preconnect" href="img/la-chouette-agence-banniere_mini.png" />
+    <link rel="preconnect" href="img/la-chouette-agence_mini.png" />
+    <link rel="preconnect" href="img/presentation_mini.png" />
+
+    <!--File CSS local-->
+
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
 
-    <script src="./js/jquery-3.6.0.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/blocs.js"></script>
-    <script src="./js/jqBootstrapValidation.js"></script>
-    <script src="./js/formHandler.js"></script>
-    <title>Contact | La Chouette agence</title>
+    <link rel="stylesheet" type="text/css" href="./public/style.css" />
+
+    <!--Balise Canonique-->
+    <link
+      rel="canonical"
+      href="https://barou93.github.io/OumarMAURET_4_05042021/contact.html"
+    />
 
     <!-- Analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,43 +87,56 @@
   </head>
   <body>
     <!-- Principal conteneur -->
-    <header class="header">
-      <nav class="navbar row-nav navbar-deroulant">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              src="img/la-chouette-agence.png"
-              alt="Logo Chouette Agence Entreprise webdesign de Lyon"
-          /></a>
-
+    <header class="header" id="bloc-0">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo" href="index.html">
+            <figure
+              aria-label="logo de la chouette Agence"
+              title="La chouette agence"
+            >
+              <img
+                src="img/la-chouette-agence.png"
+                alt="Logo Chouette Agence Entreprise webdesign de Lyon"
+                width="300px"
+                height="65px"
+                srcset="img/la-chouette-agence_mini.png 480w"
+                sizes="(max-width: 480px) 440px"
+                class="photo img-fluid"
+              />
+            </figure>
+          </a>
           <button
-            id="nav-toggle"
             type="button"
-            class="ui-navbar-toggle navbar-toggle"
+            class="navbar-toggler"
             data-toggle="collapse"
-            data-target=".navbar-1"
+            data-target="#toggleMobileMenu"
+            aria-controls="#toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Menu de navigation"
           >
-            <span class="icon-deroulant"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-          <ul class="site-navigation nav navbar-nav">
-            <li>
-              <a href="index.html">Accueil</a>
-            </li>
-            <li></li>
-            <li>
-              <a href="contact.html">Contactez-nous</a>
-            </li>
-          </ul>
+          <div id="toggleMobileMenu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto text-right" id="top-menu">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"> Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html"
+                  >Contactez-nous</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- bloc-0 END -->
 
       <!-- bloc-1-presentation -->
-      <section class="parallax-section texture-paper-new" id="bloc-contact">
-        <div class="container new-container">
-          <div class="row no-gutters back-new">
+      <section class="parallax-section texture-paper" id="bloc-contact">
+        <div class="container">
+          <div class="row no-gutters">
             <div class="col-sm-12 wrappy">
               <h1>Contactez-nous</h1>
             </div>
@@ -100,18 +158,20 @@
         </p>
       </article>
       <section class="bloc bgc-white l-bloc" id="bloc-7">
-        <div class="bloc-l">
-          <div class="row bloc-form">
-            <div class="col-sm-7 form-size">
+        <div class="container bloc-l">
+          <div class="row">
+            <div class="col-sm-7">
               <form
                 action=""
-                class="validation-form"
+                class="needs-validation"
                 novalidate
                 success-msg="Your message has been sent."
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label for="name"> Nom </label><br />
+                  <label for="name">
+                    Nom <span class="text-danger">*</span> </label
+                  ><br />
                   <input
                     id="name"
                     class="form-control"
@@ -120,7 +180,11 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label> <br />
+                  <label>
+                    Adresse email
+                    <span class="text-danger">*</span>
+                  </label>
+                  <br />
                   <input
                     id="email"
                     class="form-control"
@@ -151,25 +215,17 @@
                     required
                   ></textarea>
                 </div>
-                <button
-                  class="
-                    bloc-button
-                    btn btn-lg btn-block
-                    cta-hero
-                    btn-atomic-tangerine
-                  "
-                  type="submit"
-                >
-                  Envoyer
-                </button>
+                <button class="btn btn-danger" type="submit">Envoyer</button>
               </form>
             </div>
-            <div class="col-sm-5 bloc-info">
-              <h2>Nous contactez</h2>
-              <p class="info-text">
-                contact@lachouetteagence.com<br />2 place Sathonay 69001 Lyon<br />Ouvert
-                de 9h à 18h, du lundi au vendredi<br />
-              </p>
+            <div class="col-sm-5">
+              <div class="jumbotron">
+                <h2 class="mb-5">Nous contactez</h2>
+                <address>
+                  contact@lachouetteagence.com<br />2 place Sathonay 69001
+                  Lyon<br />Ouvert de 9h à 18h, du lundi au vendredi<br />
+                </address>
+              </div>
             </div>
           </div>
         </div>
@@ -185,63 +241,51 @@
     <!-- ScrollToTop Button END-->
 
     <!-- Footer - bloc-8 -->
-    <footer id="bloc-footer">
-      <div class="container-footer footer-display">
-        <div class="row no-gutters row-footer">
+    <footer class="mt-5" id="bloc-8">
+      <div class="container bloc-sm">
+        <div class="row no-gutters">
           <div class="col-sm-12">
-            <blockquote class="footer-blockquote">
-              La Chouette Agence - Entreprise webdesign basée à Lyon
+            <blockquote class="blockquote text-center">
+              <p>"La Chouette Agence - Entreprise webdesign basée à Lyon"</p>
             </blockquote>
           </div>
         </div>
-        <div class="row-social">
-          <div class="col-sm-3">
-            <div class="text-center col-footer">
+        <div class="row social mb-5">
+          <div class="col-sm-12">
+            <div class="text-center">
               <a
-                class="social"
+                class="social btn"
                 href="twitter.com"
                 aria-label="Partagez sur Twitter"
               >
-                <span class="fa fa-twitter icon-md mini-icon twitter"
+                <span class="fab fa-twitter icon-md mini-icon twitter"
                   >Twitter</span
                 ></a
               >
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="text-center col-footer">
               <a
-                class="social"
+                class="social btn"
                 href="facebook.com"
                 aria-label="Partagez sur Facebook"
               >
-                <span class="fa fa-facebook icon-md mini-icon facebook"
+                <span class="fab fa-facebook-f icon-md mini-icon facebook"
                   >Facebook</span
                 ></a
               >
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="text-center col-footer">
               <a
-                class="social"
+                class="social btn"
                 href="dribble.com"
                 aria-label="Partagez sur Dribble"
               >
-                <span class="fa fa-dribbble icon-md mini-icon dribble"
+                <span class="fab fa-dribbble icon-md mini-icon dribble"
                   >Dribble</span
                 ></a
               >
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="text-center col-footer">
               <a
-                class="social"
+                class="social btn"
                 href="instagram.com"
                 aria-label="Partagez sur Instagram"
               >
-                <span class="fa fa-instagram icon-md mini-icon instagram"
+                <span class="fab fa-instagram icon-md mini-icon instagram"
                   >Instagram</span
                 ></a
               >
@@ -250,6 +294,39 @@
         </div>
       </div>
     </footer>
-    <!-- Principal conteneur END -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+      integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+      crossorigin="anonymous"
+      async
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      async
+    ></script>
+    <script src="js/index.js" async></script>
   </body>
 </html>

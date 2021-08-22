@@ -1,0 +1,28 @@
+@import "../utils/mixin";
+
+.navbar-light .nav-menu {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .nav-link {
+  font-size: 1.425rem;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+header .navbar-collapse {
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: #000;
+    &:hover {
+      color: crimson;
+      text-decoration: underline;
+    }
+  }
+}
