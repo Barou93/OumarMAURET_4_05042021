@@ -285,11 +285,6 @@ footer .col-footer {
 .bloc-form {
   margin: 125px 0;
 }
-/*
-.mg-lg {
-  margin-top: 10px;
-  margin-bottom: 40px;
-}*/
 
 .blockote-paragraph {
   font-size: 18px;
@@ -430,11 +425,15 @@ footer .col-footer {
     background-size: cover;
   }
 
-  .wrappy h1 {
-    font-size: 1.85rem;
-  }
-
   form {
     margin-bottom: 50px;
+  }
+  #bloc-contact {
+    h1 {
+      font-size: 1.85rem;
+    }
+  }
+  #header h2 {
+    font-size: 32px;
   }
 }
