@@ -445,4 +445,12 @@ h2 {
     background: linear-gradient(rgba(29, 27, 27, 0.397), rgba(172, 171, 171, 0.069)), url(../img/signin_mini.png) no-repeat;
     background-size: cover;
   }
+
+  .wrappy h1 {
+    font-size: 1.85rem;
+  }
+
+  form {
+    margin-bottom: 50px;
+  }
 }
