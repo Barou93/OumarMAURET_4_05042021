@@ -104,16 +104,6 @@ blockquote {
   }
 }
 
-.parallax-section::before {
-  content: "";
-  background-size: 280px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 .bloc-l {
   margin-left: 60px;
 }
@@ -156,10 +146,6 @@ blockquote {
 .mt-4 {
   margin-top: 1rem !important;
   font-size: 1.25rem;
-}
-
-.parallax-section .bgc-dark {
-  background: rgba(0, 0, 0, 0.65);
 }
 
 .parallax-section .mt5 {
@@ -265,7 +251,7 @@ footer blockquote p {
 }
 
 .icon-md {
-  font-size: 30px !important;
+  font-size: 42px !important;
   font-weight: bold;
   text-transform: none;
 }
@@ -283,22 +269,34 @@ footer .col-footer {
 .twitter {
   color: dodgerblue;
 }
-.twitter:hover {
-  color: #000;
+.twitter::before {
+  content: "";
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background: url("../icons/twitter-brands.svg") center center/contain no-repeat;
 }
 
 .facebook {
-  color: #3b5998;
+  color: #1778f2;
 }
-.facebook:hover {
-  color: #000;
+.facebook::before {
+  content: "";
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background: url("../icons/Facebook.svg") center center/contain no-repeat;
 }
 
 .dribble {
   color: #e94c88;
 }
-.dribble:hover {
-  color: #000;
+.dribble::before {
+  content: "";
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background: url("../icons/dribbble-brands.svg") center center/contain no-repeat;
 }
 
 .bloc-form {
@@ -326,8 +324,12 @@ footer .col-footer {
 .instagram {
   color: #3f729b;
 }
-.instagram:hover {
-  color: #000;
+.instagram::before {
+  content: "";
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background: url("../icons/instagram-brands.svg") center center/contain no-repeat;
 }
 
 /*******SCROLL BUTTON******/
@@ -451,5 +453,9 @@ h2 {
 
   #header h2 {
     font-size: 32px;
+  }
+
+  .icon-md {
+    font-size: 30px !important;
   }
 }
