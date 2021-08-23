@@ -44,7 +44,7 @@ h2 {
 }
 
 .parallax-section a {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .parallax-section .text-size {
@@ -53,7 +53,8 @@ h2 {
   text-align: center;
 }
 .texture-paper::before {
-  background: url("../img/texture-paper.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/texture-paper.png");
   background-size: 280px 280px;
 }
 
