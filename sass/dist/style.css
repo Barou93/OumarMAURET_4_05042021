@@ -281,7 +281,7 @@ footer .col-footer {
 }
 
 .twitter {
-  color: #55acee;
+  color: dodgerblue;
 }
 .twitter:hover {
   color: #000;
@@ -394,11 +394,11 @@ footer .col-footer {
 
 @media screen and (max-width: 580px) {
   .navbar-brand img {
-    max-width: 275px;
+    max-width: 200px;
   }
 
   #bloc-1-hero {
-    background: url("../img/la-chouette-agence-banniere_mini.png");
+    background: url("../img/la-chouette-agence-banniere_mini.png") contain no-repeat;
   }
   #bloc-1-hero img {
     height: 100px;
@@ -406,11 +406,11 @@ footer .col-footer {
   }
 
   #bloc-2-hero {
-    background: url("../img/presentation_mini.png");
+    background: url("../img/presentation_mini.png") contain no-repeat;
   }
 
   #bloc-5-cta {
-    background: url("../img/presentation_mini.png");
+    background: url("../img/presentation_mini.png") contain no-repeat;
   }
 
   .wrappy h1 {
@@ -429,6 +429,10 @@ h2,
 blockquote .h2,
 h2 {
     font-size: 2rem;
+  }
+
+  .parallax-section .mt5 {
+    font-size: 1.75rem;
   }
 
   #bloc-contact {
