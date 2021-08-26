@@ -50,6 +50,9 @@ h2 {
   right: 0;
   top: 0;
 }
+.parallax-section .bcg-dark {
+  background: #292828;
+}
 
 .wrappy {
   color: #fff;
